@@ -1,0 +1,37 @@
+h2, h3{
+    text-align: center;
+}
+h5{
+    position: absolute;
+}
+#years{
+    top: 100%;
+    left: 50%;
+}
+#months{
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    left: 0;
+    top: 70%;
+}
+.map{
+    display: block;
+    margin: 5px auto;
+}
+.cell:hover{
+    stroke: black;
+}
+#tooltip{
+    background-color: black;
+    position: absolute;
+    height: auto ;
+    width: auto;
+    color: aliceblue;
+    text-align: center;
+    padding: 1%;
+    border-radius: 5%;
+}
+#legend{
+    padding: 0 10%;
+}
